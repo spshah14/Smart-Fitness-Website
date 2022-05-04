@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(/img/pexels-pixabay-260409.jpg);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Baloo 2', cursive;
+
+    /* height: 5002px; */
+    /* width: 599px; */
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top: 20px;
+    /* border: 2px solid red; */
+    font-size: 10px;
+    margin: auto;
+}
+.left .img{
+    margin: auto;
+}
+.left img{
+    display: block;
+    height: 45px;
+    width: 45px;
+    margin: auto;
+}
+.mid{
+    display: block;
+    /* position: absolute; */
+    margin: 20px auto;
+    width: 500px;
+    /* border: 2px solid green; */
+}
+.navbar{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar li{
+    display: inline-block;
+    padding: 4px;
+    margin: 5px 10px;
+}
+.navbar li a:hover{
+    color: #bcaeae;
+}
+.navbar li a.active{
+    color: #bcaeae;
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    /* border: 2px solid yellow; */
+}
+.right .btn{
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 7px;
+    margin: 5px 3px;
+    padding: 5px;
+}
+.right .btn:hover{
+    cursor: pointer;
+    color: #bcaeae;
+}
+
+.container{
+    display: block;
+    border: 0.5px solid #7f7a7a;
+    width:450px;
+    margin: 80px 60px;
+    text-align: center;
+
+}
+.container form h2{
+    margin: 15px;
+}
+.container .form-field{
+    margin: 25px 0;
+}
+.container .form-data{
+    display: block;
+    margin: 10px auto;
+    padding: 5px 100px;
+    background: transparent;
+    color: whitesmoke;
+    border: 0.5px solid #7f7a7a;
+    border-radius: 5px;
+}
+
+.container .btn{
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 7px;
+    margin: 5px 3px;
+    padding: 5px 25px;
+}
+.container .btn:hover{
+    cursor: pointer;
+    color: #bcaeae;
+}
